@@ -1,0 +1,23 @@
+{
+  "name": "markdown-it-math-plugin",
+  "version": "0.0.1",
+  "description": "markdown-it plugin for rendering math using mathjax",
+  "main": "index.js",
+  "author": "kreempuff",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "types": "types.d.ts",
+  "devDependencies": {
+    "jest": "25.1.0",
+    "markdown-it": "10.0.0",
+    "@types/markdown-it": "0.0.9"
+  },
+  "peerDependencies": {
+    "markdown-it": "10.0.0"
+  },
+  "dependencies": {
+    "katex": "^0.11.1"
+  }
+}
