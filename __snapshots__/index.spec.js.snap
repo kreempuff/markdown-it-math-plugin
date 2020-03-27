@@ -1,0 +1,6 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main test basic parsing 1`] = `
+"<p><span class=\\"katex\\"><span class=\\"katex-mathml\\"><math xmlns=\\"http://www.w3.org/1998/Math/MathML\\"><semantics><mrow><mi>h</mi><mi>e</mi><mi>l</mi><mi>l</mi><mi>o</mi></mrow><annotation encoding=\\"application/x-tex\\">hello</annotation></semantics></math></span><span class=\\"katex-html\\" aria-hidden=\\"true\\"><span class=\\"base\\"><span class=\\"strut\\" style=\\"height:0.69444em;vertical-align:0em;\\"></span><span class=\\"mord mathdefault\\">h</span><span class=\\"mord mathdefault\\">e</span><span class=\\"mord mathdefault\\" style=\\"margin-right:0.01968em;\\">l</span><span class=\\"mord mathdefault\\" style=\\"margin-right:0.01968em;\\">l</span><span class=\\"mord mathdefault\\">o</span></span></span></span></p>
+"
+`;

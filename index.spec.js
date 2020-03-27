@@ -7,8 +7,8 @@ describe('main', function () {
     md = new MarkdownIt();
     md.use(mylib)
   });
-  test("hi", () => {
+  test("test basic parsing", () => {
     let parsed = md.render("$hello$");
-    expect(parsed).toBe(1)
+    expect(parsed).toMatchSnapshot()
   })
 });
