@@ -66,10 +66,10 @@ function math (state, silent) {
 module.exports = function (markdownInstance) {
   markdownInstance.inline.ruler.push('texMath', math);
   markdownInstance.renderer.rules.inline_math = (tokens, idx) => {
-    return katex.renderToString(tokens[idx].content, { throwOnError: false, display: false });
+    return katex.renderToString(tokens[idx].content, { throwOnError: false});
   };
   markdownInstance.renderer.rules.display_math = (tokens, idx) => {
 
-    return katex.renderToString(tokens[idx].content, { throwOnError: false, display: true });
+    return katex.renderToString(tokens[idx].content, { throwOnError: false, displayMode: true });
   }
 };

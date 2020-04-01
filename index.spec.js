@@ -11,4 +11,9 @@ describe('main', function () {
     let parsed = md.render("$hello$");
     expect(parsed).toMatchSnapshot()
   })
+
+  test("test display math", () => {
+    let parsed = md.render("$$hello$$");
+    expect(parsed).toMatchSnapshot()
+  })
 });
