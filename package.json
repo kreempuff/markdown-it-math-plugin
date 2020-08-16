@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-math-plugin",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "markdown-it plugin for rendering math using katex",
   "main": "index.js",
   "author": "kreempuff",
@@ -10,13 +10,13 @@
   },
   "types": "types.d.ts",
   "devDependencies": {
-    "jest": "25.1.0",
-    "katex": "0.x",
-    "markdown-it": "10.0.0",
-    "@types/markdown-it": "0.0.9"
+    "jest": "25.x",
+    "katex": ">=0.11.1",
+    "markdown-it": ">=10.0.0",
+    "@types/markdown-it": ">=0.0.9"
   },
   "peerDependencies": {
-    "katex": "0.x",
-    "markdown-it": "10.x"
+    "katex": ">=0.11.1",
+    "markdown-it": ">=10.0.0"
   }
 }
